@@ -1,2 +1,2 @@
 # Sung-Hoon HONG 
-(as) an anthropologist (from) Seoul
+(as) an anthropologist (for) anthropolgy (dot) city (from) Seoul
