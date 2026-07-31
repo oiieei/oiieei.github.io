@@ -8,6 +8,25 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  <link rel="icon" type="image/x-icon" href="images/dive.jpg">
 	  <title>Sung-Hoon HONG</title>
+	  <style>
+        /* 기본 상태 (라이트 모드) */
+        body {
+          background-color: white;
+          color: black;
+        }
+
+        /* 기기가 다크모드일 때 자동으로 적용될 스타일 */
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212; /* 어두운 배경 */
+            color: #f1f1f1; /* 밝은 글자 */
+          }
+        /* 다크모드일 때 링크(a 태그) 색상도 보기 편한 밝은 하늘색으로 변경 */
+          a {
+            color: #64b5f6;
+          }
+        }
+      </style>
   </head>
   <body>
     <h3><a href="cv/cv.html" style="text-decoration-style:dotted;color:black;" target="_blank">홍성훈</a> is a topological engine analogizing <a href="art/art.html" style="text-decoration-style:dotted;" target="_blank"><i>art</i></a> and <a href="anthropology/anthropology.html" style="text-decoration-style:dotted;" target="_blank"><i>anthropology</i></a> or <a href="technology/technology.html" style="text-decoration-style:dotted;" target="_blank"><i>technology</i></a> from the city.</h3>
