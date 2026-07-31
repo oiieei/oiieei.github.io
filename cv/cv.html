@@ -7,6 +7,25 @@
 	  <meta name="author" content="Sung-Hoon HONG">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  <title>HONG SUNG HOON</title>
+	  <style>
+        /* 기본 상태 (라이트 모드) */
+        body {
+          background-color: white;
+          color: black;
+        }
+
+        /* 기기가 다크모드일 때 자동으로 적용될 스타일 */
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212; /* 어두운 배경 */
+            color: #f1f1f1; /* 밝은 글자 */
+          }
+        /* 다크모드일 때 링크(a 태그) 색상도 보기 편한 밝은 하늘색으로 변경 */
+          a {
+            color: #64b5f6;
+          }
+        }
+      </style>
   </head>
   <body>
     <ul>
